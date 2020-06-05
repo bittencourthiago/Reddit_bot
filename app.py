@@ -8,7 +8,7 @@ def liner():
 reddit = praw.Reddit(client_id="ajdTuMcPDDDg9g",
                      
                      client_secret="mhjOAAAz8u4tTq50JUp1bGnj3NQ",
-                     username ='coloque_sua_senha_aqui',
+                     username ='coloque_seu_username_aqui',
                      password ='coloque_sua_senha_aqui',
                      user_agent="my user agent")
 
