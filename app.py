@@ -6,7 +6,6 @@ palavras_para_proibir = ['palavra1', 'palavra2', 'palavra3']
 def liner():
     print('--------------------------------------')
 
-
 reddit = praw.Reddit(client_id="ajdTuMcPDDDg9g",
 
                      client_secret="mhjOAAAz8u4tTq50JUp1bGnj3NQ",
@@ -14,15 +13,12 @@ reddit = praw.Reddit(client_id="ajdTuMcPDDDg9g",
                      password='coloque_sua_senha_aqui',
                      user_agent="my user agent")
 
-
 sub_selected = reddit.subreddit("escolha_o_subreddit")
-
 
 liner()
 print(sub_selected.title)
 print(sub_selected.description)
 liner()
-
 
 # retorna as 2 peirmeiras top postagens do subreddit
 for submission in sub_selected.top(limit=2):
