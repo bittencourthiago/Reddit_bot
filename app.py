@@ -2,7 +2,7 @@ import praw
 
 palavras_para_proibir = ['palavra1', 'palavra2', 'palavra3']
 
-
+#função criada para organizar
 def liner():
     print('--------------------------------------')
 
